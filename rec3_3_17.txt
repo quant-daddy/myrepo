@@ -1,0 +1,43 @@
+    1  emacs
+    2  emacs24
+    3  sudo apt-get install emacs24
+    4  emacs24
+    5  sudo apt-get install --fix-missing emacs24
+    6  emacs
+    7  ls /etc/apt/sources.list
+    8  ls -a /etc/apt/sources.list
+    9  ls -al /etc/apt/sources.list
+   10  cat /etc/apt/sources.list
+   11  cat /etc/apt/sources.list | less
+   12  sudo add-apt-repository ppa:cassou/emacs
+   13  cat /etc/apt/sources.list | tail -5
+   14  cat /etc/apt/sources.list | less
+   15  sudo add-apt-repository ppa:cassou/emacs
+   16  cat /etc/apt/sources.list | less
+   17  sudo add-apt-repository ppa:ubuntu-elisp/ppa
+   18  sudo apt-get update
+   19  sudo apt-get install emacs-snapshot emacs-snapshot-el
+   20  which emacs
+   21  emacs
+   22  ls
+   23  cd myrepo/
+   24  ls
+   25  mv ../myfile.txt ./
+   26  ls
+   27  git status
+   28  git add myfile.txt 
+   29  git status
+   30  git commit myfile.txt 
+   31  git config --global user.email "you@example.com"
+   32  git config --global user.email "skk2142@columbia.edu"
+   33  git config --global user.name "Suraj"
+   34  git commit myfile.txt 
+   35  git status
+   36  git push
+   37  git status
+   38  git fetch
+   39  git merge
+   40  git merge origin/master
+   41  ls
+   42  \history
+   43  history > rec3_3_17.txt
